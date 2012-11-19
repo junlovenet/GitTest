@@ -114,6 +114,8 @@
 	[ASIFormDataRequest setShouldUpdateNetworkActivityIndicator:NO];
 }
 
+
+
 -(void)getData:(NSURL*)postUrl
 {
 //	if (![System connectedToNetwork]) 
