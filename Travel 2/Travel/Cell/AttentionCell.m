@@ -1,0 +1,29 @@
+//
+//  AttentionCell.m
+//  Travel
+//
+//  Created by home auto on 12-8-20.
+//  Copyright (c) 2012年 st. All rights reserved.
+//
+
+#import "AttentionCell.h"
+
+@implementation AttentionCell
+
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        // Initialization code
+    }
+    return self;
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+{
+    [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
+}
+
+@end
